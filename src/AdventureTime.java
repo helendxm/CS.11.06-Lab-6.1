@@ -9,13 +9,13 @@ public class AdventureTime {
      */
     public static void main(String[] args) throws IOException {
         int challengeOne = challengeOne("inputOneTwo.txt");
-//        System.out.println("The answer to Challenge 1 is " + challengeOne + ".");
+        System.out.println("The answer to Challenge 1 is " + challengeOne + ".");
         int challengeTwo = challengeTwo( "inputOneTwo.txt");
-//        System.out.println("The answer to Challenge 2 is " + challengeTwo + ".");
+        System.out.println("The answer to Challenge 2 is " + challengeTwo + ".");
         int challengeThree = challengeThree("inputThreeFour.txt");
-//        System.out.println("The answer to Challenge 3 is " + challengeThree + ".");
+        System.out.println("The answer to Challenge 3 is " + challengeThree + ".");
         int challengeFour = challengeFour("inputThreeFour.txt");
-//        System.out.println("The answer to Challenge 4 is " + challengeFour + ".");
+        System.out.println("The answer to Challenge 4 is " + challengeFour + ".");
 
         writeFileAllAnswers("allAnswers.txt", challengeOne, challengeTwo, challengeThree, challengeFour);
     }
